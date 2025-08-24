@@ -1,0 +1,29 @@
+{
+  "SOCKETIO": {
+    "BASE": "https://hgzy.app",
+    "PATH": "/socket.io",
+    "QUERY": {
+      "EIO": "4"
+    },
+    "TRANSPORTS": [
+      "websocket"
+    ],
+    "SUBSCRIBE_EVENT": null,
+    "SUBSCRIBE_PAYLOAD": null,
+    "RAW_WS_URL": "wss://hgzy.app/socket.io/?EIO=4&transport=websocket"
+  },
+  "HISTORY_URL": "https://draw.ar-lottery01.com/WinGo/WinGo_30S/GetHistoryIssuePage.json",
+  "UPDATE_STATUS_URL": "https://api.hgnicepayapi.com/api/webapi/UpdateOnlineStatus",
+  "HEARTBEAT_SEC": 60,
+  "WEB_PUSH_URL": "https://YOUR-INFINITYFREE-SITE.example.com/api/push_signal.php",
+  "WEB_API_KEY": "CHANGE_ME_SUPER_SECRET",
+  "TELEGRAM_BOT_TOKEN": "",
+  "TELEGRAM_CHAT_ID": "",
+  "GAME": "WinGo_30S",
+  "SYMBOL": "WinGo",
+  "TIMEFRAME": "30s",
+  "SEND_TO_WEB": true,
+  "SEND_TO_TELEGRAM": false,
+  "BIG_THRESHOLD": 5,
+  "DEDUP_WINDOW": 200
+}
